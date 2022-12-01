@@ -5,6 +5,7 @@ import Packages from "./MenuPages/Packages";
 
 const InnerRightSide = ({ currentMenu }) => {
   console.log(currentMenu);
+
   return (
     <div className="w-100 h-100">
       <div className="uppderNavbar ">

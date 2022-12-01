@@ -8,9 +8,23 @@ const AppProvider = ({ children }) => {
     password: null,
   });
   const [currentMenu, setCurrentMenu] = useState();
+  const [users, setUsers] = useState();
+  const [admins, setAdmins] = useState();
+  const [packages, setPackages] = useState();
   return (
     <AppContext.Provider
-      value={{ authData, setAuthData, currentMenu, setCurrentMenu }}
+      value={{
+        authData,
+        setAuthData,
+        currentMenu,
+        setCurrentMenu,
+        setUsers,
+        users,
+        setAdmins,
+        admins,
+        setPackages,
+        packages,
+      }}
     >
       {children}
     </AppContext.Provider>
