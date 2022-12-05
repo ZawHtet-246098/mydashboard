@@ -179,6 +179,7 @@ const Packages = () => {
           onChange={(e) => handlePackageFormChange(e)}
           placeholder="Package Name"
           className="w-100 p-2 rounded"
+          style={{ border: "1px solid" }}
         />
         <br />
         <input
@@ -187,6 +188,7 @@ const Packages = () => {
           value={updatePackage?.month || packageData?.month}
           onChange={(e) => handlePackageFormChange(e)}
           placeholder="Months"
+          style={{ border: "1px solid" }}
           className="w-100 p-2 my-2 rounded"
         />
         <br />
@@ -197,11 +199,13 @@ const Packages = () => {
           onChange={(e) => handlePackageFormChange(e)}
           placeholder="Price"
           className="w-100 p-2 rounded"
+          style={{ border: "1px solid" }}
         />
         {update ? (
           <button
             onClick={(e) => handleUpdatePackageFormSubmit(e)}
             className="w-100 p-2 my-2 rounded"
+            style={{ border: "1px solid" }}
           >
             update package
           </button>
@@ -209,6 +213,7 @@ const Packages = () => {
           <button
             onClick={(e) => handleCreatePackageFormSubmit(e)}
             className="w-100 p-2 my-2 rounded"
+            style={{ border: "1px solid" }}
           >
             create
           </button>

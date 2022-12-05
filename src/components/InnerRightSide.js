@@ -1,7 +1,11 @@
 import React from "react";
 import AdminList from "./MenuPages/AdminList";
+import AuditLog from "./MenuPages/AuditLog";
+import Email from "./MenuPages/Email";
+import EmailSetting from "./MenuPages/EmailSetting";
 import MemberList from "./MenuPages/MemberList";
 import Packages from "./MenuPages/Packages";
+import TrackerUsers from "./MenuPages/TrackerUsers";
 
 const InnerRightSide = ({ currentMenu }) => {
   console.log(currentMenu);
@@ -25,6 +29,10 @@ const InnerRightSide = ({ currentMenu }) => {
         {currentMenu === "Member List" && <MemberList />}
         {currentMenu === "Admin List" && <AdminList />}
         {currentMenu === "Package" && <Packages />}
+        {currentMenu === "Audit Log" && <AuditLog />}
+        {currentMenu === "Email Setting" && <EmailSetting />}
+        {currentMenu === "Tracker Users" && <TrackerUsers />}
+        {currentMenu === "Email" && <Email />}
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useGlobalContext } from "../../context";
+import { PaginatedItems } from "./Pagination";
 
 import { IoIosCheckmarkCircle } from "react-icons/io";
 import { AiFillCloseCircle, AiFillDelete } from "react-icons/ai";
@@ -164,6 +165,9 @@ const MemberList = () => {
           <td>Delete</td>
         </tr> */}
       </table>
+      <div>
+        <PaginatedItems itemsPerPage={1} />
+      </div>
     </div>
   );
 };

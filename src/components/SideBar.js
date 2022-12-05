@@ -50,6 +50,38 @@ const SideBar = ({ setCurrentMenu }) => {
         >
           Package
         </button>
+        <button
+          onClick={(e) => changeMenu(e)}
+          value="Audit Log"
+          style={{ background: "#3F474E" }}
+          className="col-11 p-2 border-0 m-1 text-start text-white rounded"
+        >
+          Audit Log
+        </button>
+        <button
+          onClick={(e) => changeMenu(e)}
+          value="Tracker Users"
+          style={{ background: "#3F474E" }}
+          className="col-11 p-2 border-0 m-1 text-start text-white rounded"
+        >
+          Tracker Users
+        </button>
+        <button
+          onClick={(e) => changeMenu(e)}
+          value="Email Setting"
+          style={{ background: "#3F474E" }}
+          className="col-11 p-2 border-0 m-1 text-start text-white rounded"
+        >
+          Email Setting
+        </button>
+        <button
+          onClick={(e) => changeMenu(e)}
+          value="Email"
+          style={{ background: "#3F474E" }}
+          className="col-11 p-2 border-0 m-1 text-start text-white rounded"
+        >
+          Notification Setting
+        </button>
       </div>
     </div>
   );

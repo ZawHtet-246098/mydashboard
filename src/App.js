@@ -10,17 +10,6 @@ const App = () => {
       {/* <Login /> */}
       <InnerDashboard />
     </BrowserRouter>
-    // <div>
-    //
-
-    //   <br />
-    //   <br />
-
-    //
-    //   <br />
-    //   <br />
-    //
-    // </div>
   );
 };
 

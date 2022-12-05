@@ -1,0 +1,31 @@
+.page-item.active .page-link {
+    background-color: #e61e4d;
+    border-color: #e61e4d;
+  }
+  
+  .page-link {
+    color: #e61e4d;
+  }
+  
+  .page-link:hover {
+    color: #e61e4d;
+  }
+.pagination>li{
+    color: blue;
+}
+  .pagination>li{
+    padding: .3rem .8rem;
+    border: 1px solid gray;
+  }
+
+  .pagination>.previous>a,
+  .pagination>.next>a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  .pagination>.selected {
+    background-color: #3c1ee6;
+    color: white;
+  }
